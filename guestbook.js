@@ -43,7 +43,7 @@ const guestbook = {
     guestbook
       .get()
       .done(function (result) {
-        if (!result.entries) {
+        if (!result?.entries) {
           return;
         }
 
